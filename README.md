@@ -25,6 +25,11 @@ Diferente da abordagem padrão em ambiente Desktop, este projeto foi desenvolvid
 2. **Design Adaptativo no Excel Web:**
    - Devido às limitações do Excel Web em lidar com objetos flutuantes e conexões de segmentação de dados, tive que criar o Dashboard utilizando o **redimensionamento de células** e vínculos diretos de fórmulas para simular "cartões" (Big Numbers), garantindo que o painel permanecesse operacional e dinâmico.
    - O processo exigiu manobras em células para garantir que a atualização das tabelas dinâmicas refletisse corretamente nos gráficos.
+  
+3. **Enriquecimento de Variáveis e Lógica de Negócio:**
+   - **Problema Detectado:** A base original era estática; tanto o *EA Play* quanto o *Minecraft Season Pass* estavam marcados como "Sim" em 100% das linhas, com valores fixos de R$ 30,00 e R$ 20,00, respectivamente.
+   - **Solução via Python:** Diversifiquei os dados no script de ETL, criando cenários de "Sim" e "Não" para ambos os serviços e variando os preços proporcionalmente aos planos (*Core, Standard, Ultimate*).
+   - **Resultado:** Essa manobra transformou dados repetitivos em métricas dinâmicas, permitindo visualizar a real penetração desses serviços e seu impacto proporcional no lucro total do Dashboard.
 
 ---
 
@@ -42,8 +47,8 @@ Diferente da abordagem padrão em ambiente Desktop, este projeto foi desenvolvid
 
 * [Excel Web](https://www.microsoft.com/pt-br/microsoft-365/free-office-online-for-the-web) - Construção do Dashboard e Tabelas Dinâmicas.
 * [Python (Pandas)](https://pandas.pydata.org/) - Tratamento, limpeza e expansão da base de dados (ETL).
-* [Google Colab](https://colab.research.google.com/) - Ambiente de execução do script.
-* **[Script de Tratamento de Dados](./limpeza_dados.py)** - Link direto para o código Python utilizado neste projeto.
+* [Google Colab](https://colab.research.google.com/) - Ambiente de execução do script Python.
+* **[Script de Tratamento de Dados](./Data_Flow_Excel_Project.ipynb)** - Link direto para o código Python utilizado neste projeto.
 ---
 
 ## 📝 Conclusão
