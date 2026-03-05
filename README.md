@@ -18,7 +18,7 @@ Diferente da abordagem padrão em ambiente Desktop, este projeto foi desenvolvid
 * **Solução:** Para contornar a falta do Excel Desktop, utilizei o **Excel Web** para a visualização e o **Google Colab (Python)** para o processamento pesado de dados.
 
 ### Manobras Técnicas Realizadas:
-1. **ETL com Python (Google Colab):** - A base original possuía apenas ~98 linhas e focava apenas no plano *Ultimate*.
+1. **ETL com Python (Google Colab):** - A base original possuía apenas ~99 linhas e focava apenas no plano *Ultimate*.
    - Utilizei scripts em Python para limpar IDs desordenados e expandir a base para **297 linhas**.
    - Incrementei a diversidade dos dados adicionando os planos *Standard* e *Core*, tornando a análise mais realista.
    
