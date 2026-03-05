@@ -40,6 +40,10 @@ Diferente da abordagem padrão em ambiente Desktop, este projeto foi desenvolvid
 - **Python (Pandas):** Tratamento, limpeza e expansão da base de dados (ETL).
 - **Google Colab:** Ambiente de execução do script Python.
 
+* [Excel Web](https://www.microsoft.com/pt-br/microsoft-365/free-office-online-for-the-web) - Construção do Dashboard e Tabelas Dinâmicas.
+* [Python (Pandas)](https://pandas.pydata.org/) - Tratamento, limpeza e expansão da base de dados (ETL).
+* [Google Colab](https://colab.research.google.com/) - Ambiente de execução do script.
+* **[Script de Tratamento de Dados](./limpeza_dados.py)** - Link direto para o código Python utilizado neste projeto.
 ---
 
 ## 📝 Conclusão
