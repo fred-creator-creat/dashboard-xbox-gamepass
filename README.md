@@ -10,6 +10,15 @@ Este projeto apresenta um dashboard interativo focado nos indicadores de desempe
 
 ---
 
+## 📂 Download do Projeto
+Para visualizar o dashboard completo com todas as fórmulas, tabelas dinâmicas e a estrutura de dados, você pode acessar o arquivo diretamente pelo link abaixo:
+
+* **[📥 Baixar o Dashboard (Excel .xlsx)](./dashboard-xbox-gamepass.xlsx)**
+
+![Visualização do Dashboard](./dashboard-print.png)
+
+---
+
 ## 🚀 Desafios e Superação Técnica (Excel Web vs. Desktop)
 Diferente da abordagem padrão em ambiente Desktop, este projeto foi desenvolvido inteiramente utilizando ferramentas **Cloud/Web (Excel Web e Google Colab)**. 
 
